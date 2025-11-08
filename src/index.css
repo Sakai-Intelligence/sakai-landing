@@ -17,40 +17,45 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
 
-    --primary: 220 20% 20%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 220 25% 10%;
+    --primary-foreground: 40 10% 90%;
 
-    --secondary: 210 15% 92%;
-    --secondary-foreground: 220 20% 20%;
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 40 10% 90%;
 
-    --muted: 210 15% 95%;
-    --muted-foreground: 220 10% 45%;
+    --muted: 220 15% 25%;
+    --muted-foreground: 40 5% 65%;
 
-    --accent: 210 80% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 28 90% 55%;
+    --accent-foreground: 220 25% 10%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 88%;
-    --input: 220 13% 88%;
-    --ring: 210 80% 55%;
+    --border: 220 20% 20%;
+    --input: 220 20% 18%;
+    --ring: 28 90% 55%;
 
     --radius: 0.5rem;
     
     /* Custom design tokens */
-    --steel: 215 15% 50%;
-    --steel-light: 215 15% 65%;
-    --steel-dark: 215 20% 30%;
-    --charcoal: 220 20% 18%;
+    --steel: 215 15% 40%;
+    --steel-light: 215 12% 55%;
+    --steel-dark: 220 20% 15%;
+    --charcoal: 220 25% 10%;
+    --ember: 28 90% 55%;
+    --ember-glow: 30 95% 60%;
+    --forge: 220 30% 8%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(220 20% 20%) 0%, hsl(220 25% 15%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(220 30% 8%) 0%, hsl(220 25% 12%) 100%);
     --gradient-section: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 15% 97%) 100%);
+    --gradient-ember: linear-gradient(135deg, hsl(28 90% 55%) 0%, hsl(30 95% 60%) 100%);
     
     /* Shadows */
-    --shadow-elegant: 0 4px 24px -6px hsl(220 20% 20% / 0.12);
-    --shadow-sharp: 0 2px 12px -2px hsl(220 20% 20% / 0.15);
+    --shadow-elegant: 0 4px 24px -6px hsl(220 25% 5% / 0.4);
+    --shadow-sharp: 0 2px 12px -2px hsl(220 25% 5% / 0.5);
+    --shadow-glow: 0 0 30px -5px hsl(28 90% 55% / 0.4);
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -73,44 +78,49 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 220 25% 12%;
-    --foreground: 210 15% 92%;
+    --background: 220 30% 8%;
+    --foreground: 40 10% 90%;
 
-    --card: 220 22% 15%;
-    --card-foreground: 210 15% 92%;
+    --card: 220 25% 12%;
+    --card-foreground: 40 10% 90%;
 
     --popover: 220 25% 12%;
-    --popover-foreground: 210 15% 92%;
+    --popover-foreground: 40 10% 90%;
 
-    --primary: 210 15% 92%;
-    --primary-foreground: 220 20% 20%;
+    --primary: 40 10% 90%;
+    --primary-foreground: 220 25% 10%;
 
-    --secondary: 220 20% 20%;
-    --secondary-foreground: 210 15% 92%;
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 40 10% 90%;
 
     --muted: 220 20% 22%;
-    --muted-foreground: 215 10% 60%;
+    --muted-foreground: 40 5% 65%;
 
-    --accent: 210 80% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 28 90% 55%;
+    --accent-foreground: 220 25% 10%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 22%;
-    --input: 220 20% 22%;
-    --ring: 210 80% 55%;
+    --border: 220 20% 20%;
+    --input: 220 20% 18%;
+    --ring: 28 90% 55%;
     
-    --steel: 215 15% 55%;
-    --steel-light: 215 15% 70%;
-    --steel-dark: 215 20% 35%;
-    --charcoal: 220 20% 18%;
+    --steel: 215 12% 45%;
+    --steel-light: 215 12% 60%;
+    --steel-dark: 220 20% 15%;
+    --charcoal: 220 25% 10%;
+    --ember: 28 90% 55%;
+    --ember-glow: 30 95% 60%;
+    --forge: 220 30% 8%;
     
-    --gradient-hero: linear-gradient(135deg, hsl(220 25% 15%) 0%, hsl(220 30% 10%) 100%);
-    --gradient-section: linear-gradient(180deg, hsl(220 25% 12%) 0%, hsl(220 22% 15%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(220 30% 8%) 0%, hsl(220 25% 12%) 100%);
+    --gradient-section: linear-gradient(180deg, hsl(220 30% 8%) 0%, hsl(220 25% 12%) 100%);
+    --gradient-ember: linear-gradient(135deg, hsl(28 90% 55%) 0%, hsl(30 95% 60%) 100%);
     
-    --shadow-elegant: 0 4px 24px -6px hsl(0 0% 0% / 0.3);
-    --shadow-sharp: 0 2px 12px -2px hsl(0 0% 0% / 0.4);
+    --shadow-elegant: 0 4px 24px -6px hsl(0 0% 0% / 0.5);
+    --shadow-sharp: 0 2px 12px -2px hsl(0 0% 0% / 0.6);
+    --shadow-glow: 0 0 30px -5px hsl(28 90% 55% / 0.6);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

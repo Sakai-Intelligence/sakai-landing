@@ -8,7 +8,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background with overlay */}
       <div 
         className="absolute inset-0 z-0"
@@ -18,7 +18,7 @@ const Hero = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-primary/90 to-charcoal/95" />
+        <div className="absolute inset-0 bg-gradient-to-br from-forge/95 via-charcoal/90 to-forge/95" />
       </div>
 
       {/* Content */}

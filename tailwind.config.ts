@@ -53,6 +53,11 @@ export default {
           dark: "hsl(var(--steel-dark))",
         },
         charcoal: "hsl(var(--charcoal))",
+        ember: {
+          DEFAULT: "hsl(var(--ember))",
+          glow: "hsl(var(--ember-glow))",
+        },
+        forge: "hsl(var(--forge))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
