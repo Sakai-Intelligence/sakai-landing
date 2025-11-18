@@ -6,11 +6,6 @@
 All colors MUST be HSL.
 */
 
-.icon {
-  mask: url(./src/assets/sakai-logo.png) center / contain no-repeat;
-  -webkit-mask: url(./src/assets/sakai-logo.png) center / contain no-repeat;
-}
-
 @layer base {
   :root {
     --background: 0 0% 100%;

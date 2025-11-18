@@ -6,7 +6,13 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
-            <div alt="Sakai Intelligence Logo" className="h-12 w-12 icon bg-accent" />
+            <div
+              alt="Sakai Intelligence Logo" className="h-12 w-12 bg-accent"
+              style={{
+                mask: `url(${sakaiLogo}) center / contain no-repeat`,
+                WebkitMask: `url(${sakaiLogo}) center / contain no-repeat`
+              }}
+            />
             <div>
               <h1 className="text-xl font-bold text-primary-foreground tracking-tight">Sakai Intelligence</h1>
               <p className="text-xs text-muted-foreground">Forged with Precision</p>
