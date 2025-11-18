@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  vite:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
+      - vite_node_modules:/app/node_modules
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+      - CHOKIDAR_INTERVAL=100
+
+volumes:
+  vite_node_modules:

@@ -6,29 +6,29 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
-            <img src={sakaiLogo} alt="Sakai Intelligence Logo" className="h-12 w-auto" />
+            <div alt="Sakai Intelligence Logo" className="h-12 w-12 icon bg-accent" />
             <div>
-              <h1 className="text-xl font-bold text-foreground tracking-tight">Sakai Intelligence</h1>
+              <h1 className="text-xl font-bold text-primary-foreground tracking-tight">Sakai Intelligence</h1>
               <p className="text-xs text-muted-foreground">Forged with Precision</p>
             </div>
           </div>
-          
+
           <nav className="hidden md:flex items-center gap-8">
-            <a 
-              href="#story" 
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            <a
+              href="#story"
+              className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors"
             >
               Our Story
             </a>
-            <a 
-              href="#services" 
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            <a
+              href="#services"
+              className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors"
             >
               Services
             </a>
-            <a 
-              href="#contact" 
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            <a
+              href="#contact"
+              className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors"
             >
               Contact
             </a>

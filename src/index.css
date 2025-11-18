@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
 All colors MUST be HSL.
 */
+
+.icon {
+  mask: url(./src/assets/sakai-logo.png) center / contain no-repeat;
+  -webkit-mask: url(./src/assets/sakai-logo.png) center / contain no-repeat;
+}
 
 @layer base {
   :root {
@@ -37,7 +42,7 @@ All colors MUST be HSL.
     --ring: 28 90% 55%;
 
     --radius: 0.5rem;
-    
+
     /* Custom design tokens */
     --steel: 215 15% 40%;
     --steel-light: 215 12% 55%;
@@ -46,17 +51,17 @@ All colors MUST be HSL.
     --ember: 28 90% 55%;
     --ember-glow: 30 95% 60%;
     --forge: 220 30% 8%;
-    
+
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(220 30% 8%) 0%, hsl(220 25% 12%) 100%);
     --gradient-section: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 15% 97%) 100%);
     --gradient-ember: linear-gradient(135deg, hsl(28 90% 55%) 0%, hsl(30 95% 60%) 100%);
-    
+
     /* Shadows */
     --shadow-elegant: 0 4px 24px -6px hsl(220 25% 5% / 0.4);
     --shadow-sharp: 0 2px 12px -2px hsl(220 25% 5% / 0.5);
     --shadow-glow: 0 0 30px -5px hsl(28 90% 55% / 0.4);
-    
+
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -105,7 +110,7 @@ All colors MUST be HSL.
     --border: 220 20% 20%;
     --input: 220 20% 18%;
     --ring: 28 90% 55%;
-    
+
     --steel: 215 12% 45%;
     --steel-light: 215 12% 60%;
     --steel-dark: 220 20% 15%;
@@ -113,11 +118,11 @@ All colors MUST be HSL.
     --ember: 28 90% 55%;
     --ember-glow: 30 95% 60%;
     --forge: 220 30% 8%;
-    
+
     --gradient-hero: linear-gradient(135deg, hsl(220 30% 8%) 0%, hsl(220 25% 12%) 100%);
     --gradient-section: linear-gradient(180deg, hsl(220 30% 8%) 0%, hsl(220 25% 12%) 100%);
     --gradient-ember: linear-gradient(135deg, hsl(28 90% 55%) 0%, hsl(30 95% 60%) 100%);
-    
+
     --shadow-elegant: 0 4px 24px -6px hsl(0 0% 0% / 0.5);
     --shadow-sharp: 0 2px 12px -2px hsl(0 0% 0% / 0.6);
     --shadow-glow: 0 0 30px -5px hsl(28 90% 55% / 0.6);

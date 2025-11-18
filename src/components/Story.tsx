@@ -10,15 +10,15 @@ const Story = () => {
             The Spirit of <span className="text-accent">Sakai</span>
           </h2>
           <p className="text-lg text-muted-foreground text-center mb-16 max-w-3xl mx-auto">
-            In Sakai, Japan, legendary sword craftsmen faced a turning point. When the age of the samurai ended, 
+            In Sakai, Japan, legendary sword craftsmen faced a turning point. When the age of the samurai ended,
             they didn't abandon their craft—they reinvented it, becoming the world's most renowned kitchen knife makers.
           </p>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="relative rounded-lg overflow-hidden shadow-elegant">
-              <img 
-                src={sakaiSpirit} 
-                alt="Master craftsman forging with precision" 
+              <img
+                src={sakaiSpirit}
+                alt="Master craftsman forging with precision"
                 className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-forge/80 to-transparent" />
@@ -65,7 +65,7 @@ const Story = () => {
 
           <div className="bg-accent/5 border border-accent/20 rounded-lg p-8 text-center">
             <p className="text-lg text-foreground italic">
-              "We bring that same spirit to your business—combining deep technical mastery with the courage to reinvent, 
+              "We bring that same spirit to your business—combining deep technical mastery with the courage to reinvent,
               creating AI-powered solutions that cut through complexity and deliver transformative results."
             </p>
           </div>

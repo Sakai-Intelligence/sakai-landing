@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroBackground from "@/assets/hero-background.jpg";
+import heroBackground from "@/assets/sakai-landing.png";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -10,15 +10,19 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background with overlay */}
-      <div 
+      <div
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: `url(${heroBackground})`,
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "center top 53%",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-forge/95 via-charcoal/90 to-forge/95" />
+        <div className="absolute inset-0"
+          style={{
+            backgroundImage: "radial-gradient(circle at 50% 68%, rgba(255,255,255, 0%) 0%, black 60%)"
+          }}
+        />
       </div>
 
       {/* Content */}
@@ -29,26 +33,26 @@ const Hero = () => {
             <span className="text-accent">Forged with Precision</span>
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Like the master craftsmen of Sakai who transformed sword-making into the art of creating the world's finest knives, 
+            Like the master craftsmen of Sakai who transformed sword-making into the art of creating the world's finest knives,
             we reinvent your business through cutting-edge AI integrations and software excellence.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              variant="hero" 
-              size="lg" 
+            <Button
+              variant="hero"
+              size="lg"
               onClick={scrollToContact}
               className="text-lg px-8"
             >
               Start Your Transformation
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
-              className="text-lg px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+              className="text-lg px-8 border-primary-foreground/30 hover:bg-primary-foreground/10"
               onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
             >
-              Explore Our Craft
+              Explore our craft
             </Button>
           </div>
         </div>
