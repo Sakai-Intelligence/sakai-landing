@@ -1,8 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroBackground from "@/assets/sakai-landing.png";
+import { useTranslation, Locale } from "@/i18n/useTranslation";
 
-const Hero = () => {
+interface HeroProps {
+  locale: Locale;
+}
+
+const Hero = ({ locale }: HeroProps) => {
+  const { t } = useTranslation(locale);
   const scrollToContact = () => {
     document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
   };
@@ -29,12 +35,11 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 tracking-tight">
-            Crafting Intelligence,<br />
-            <span className="text-accent">Forged with Precision</span>
+            {t('hero.title1')}<br />
+            <span className="text-accent">{t('hero.title2')}</span>
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Like the master craftsmen of Sakai who transformed sword-making into the art of creating the world's finest knives,
-            we reinvent your business through cutting-edge AI integrations and software excellence.
+            {t('hero.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
@@ -43,7 +48,7 @@ const Hero = () => {
               onClick={scrollToContact}
               className="text-lg px-8"
             >
-              Start Your Transformation
+              {t('hero.ctaPrimary')}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button
@@ -52,7 +57,7 @@ const Hero = () => {
               className="text-lg px-8 border-primary-foreground/30 hover:bg-primary-foreground/10"
               onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
             >
-              Explore our craft
+              {t('hero.ctaSecondary')}
             </Button>
           </div>
         </div>

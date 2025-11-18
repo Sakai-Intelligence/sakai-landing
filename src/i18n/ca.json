@@ -1,0 +1,77 @@
+{
+  "notFound.404": "404",
+  "notFound.oops": "Vaja! No s'ha trobat la pàgina",
+  "notFound.returnHome": "Torna a l'inici",
+
+  "story.title": "L'esperit de",
+  "story.sakai": "Sakai",
+  "story.paragraph": "A Sakai, al Japó, els mestres forjadors es van reinventar quan l'era dels samurais va acabar. Van transformar un ofici de segles en una nova forma d'excel·lència i es van convertir en els millors creadors de ganivets del món. Aquest mateix esperit de destresa i reinvenció inspira la nostra feina.",
+  "story.mastery": "Destresa",
+  "story.masteryDesc": "Experiència sòlida adquirida durant anys de treball en enginyeria, arquitectura i disseny de sistemes.",
+  "story.reinvention": "Reinvenció",
+  "story.reinventionDesc": "La capacitat de repensar processos, modernitzar sistemes i integrar IA per desbloquejar noves possibilitats.",
+  "story.excellence": "Excel·lència",
+  "story.excellenceDesc": "Oferim solucions fiables, escalables i elegants que generen un impacte real.",
+  "story.quote": "Portem l'esperit de Sakai a cada projecte, combinant precisió tècnica amb la visió per reinventar sistemes complexos i crear solucions amb IA que importen de veritat.",
+
+  "header.title": "Sakai Intelligence",
+  "header.subtitle": "Tecnologia de precisió, impacte real",
+  "header.ourStory": "La nostra història",
+  "header.services": "Serveis",
+  "header.contact": "Contacte",
+
+  "contact.title": "Construïm alguna cosa excepcional",
+  "contact.subtitle": "Des d'integracions d'IA fins a enginyeria full-stack, dissenyem solucions que ajuden les empreses a avançar més ràpid, a créixer amb intel·ligència i a operar amb claredat. Explica'ns què necessites i t'ajudarem a definir l'estratègia adequada.",
+  "contact.getInTouch": "Contacta amb nosaltres",
+  "contact.email": "Correu electrònic",
+  "contact.emailAddress": "contact@sakai-intelligence.com",
+  "contact.nameRequired": "El nom és obligatori",
+  "contact.nameMax": "El nom ha de tenir menys de 100 caràcters",
+  "contact.invalidEmail": "Adreça de correu no vàlida",
+  "contact.emailMax": "El correu ha de tenir menys de 255 caràcters",
+  "contact.companyMax": "El nom de l'empresa ha de tenir menys de 100 caràcters",
+  "contact.messageRequired": "El missatge és obligatori",
+  "contact.messageMax": "El missatge ha de tenir menys de 1000 caràcters",
+  "contact.sentTitle": "Missatge enviat",
+  "contact.sentDesc": "Gràcies! Et respondrem aviat per explorar com podem ajudar-te.",
+
+  "footer.title": "Sakai Intelligence",
+  "footer.desc": "Integració d'IA i desenvolupament de programari amb claredat, precisió i impacte.",
+  "footer.services": "Serveis",
+  "footer.aiIntegration": "Integració d'IA",
+  "footer.softwareDev": "Desenvolupament de programari",
+  "footer.processAuto": "Automatització de processos",
+  "footer.techConsult": "Consultoria tècnica",
+  "footer.contact": "Contacte",
+  "footer.email": "contact@sakai-intelligence.com",
+  "footer.phone": "+34 600 000 000",
+  "footer.remote": "Treball remot i global",
+  "footer.rights": "Tots els drets reservats.",
+
+  "services.title": "Els nostres serveis",
+  "services.subtitle": "Ajudem les empreses a modernitzar-se, optimitzar i créixer gràcies a l'enginyeria experta i l'automatització intel·ligent.",
+
+  "services.aiIntegration": "Integració d'IA",
+  "services.aiIntegrationDesc": "Aporta valor real als teus productes i processos integrant IA fiable i preparada per a producció, des de LLM fins a models de ML personalitzats.",
+
+  "services.softwareDev": "Desenvolupament de programari a mida",
+  "services.softwareDevDesc": "Dissenyem i construïm solucions de programari robustes i escalables adaptades a la teva lògica de negoci, necessitats operatives i visió a llarg termini.",
+
+  "services.processAuto": "Automatització de processos",
+  "services.processAutoDesc": "Substitueix tasques manuals repetitives per fluxos automatitzats que redueixen errors, acceleren el lliurament i disminueixen costos.",
+
+  "services.apiDev": "Disseny i desenvolupament d'APIs",
+  "services.apiDevDesc": "APIs ben dissenyades que connecten els teus sistemes, simplifiquen integracions i faciliten el creixement futur sense friccions arquitectòniques.",
+
+  "services.dataEng": "Enginyeria de dades",
+  "services.dataEngDesc": "Construïm pipelines i infraestructures de dades fiables que transformen dades en informació útil i decisions encertades.",
+
+  "services.techConsult": "Consultoria tècnica",
+  "services.techConsultDesc": "Des d'orientació arquitectònica fins a estratègies de modernització, ajudem els equips tècnics a prendre les decisions adequades en el moment adequat.",
+
+  "hero.title1": "Enginyeria de precisió,",
+  "hero.title2": "intel·ligència que escala",
+  "hero.subtitle": "Ajudem empreses a integrar IA, modernitzar els seus sistemes i construir programari fiable pensat per créixer a llarg termini.",
+  "hero.ctaPrimary": "Inicia la transformació",
+  "hero.ctaSecondary": "Explora els serveis"
+}

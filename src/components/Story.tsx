@@ -1,17 +1,22 @@
 import { Sword, Sparkles, TrendingUp } from "lucide-react";
 import sakaiSpirit from "@/assets/sakai-spirit.jpg";
+import { useTranslation, Locale } from "@/i18n/useTranslation";
 
-const Story = () => {
+interface StoryProps {
+  locale: Locale;
+}
+
+const Story = ({ locale }: StoryProps) => {
+  const { t } = useTranslation(locale);
   return (
     <section id="story" className="py-24 bg-gradient-to-b from-background to-card">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">
-            The Spirit of <span className="text-accent">Sakai</span>
+            {t('story.title')} <span className="text-accent">{t('story.sakai')}</span>
           </h2>
           <p className="text-lg text-muted-foreground text-center mb-16 max-w-3xl mx-auto">
-            In Sakai, Japan, legendary sword craftsmen faced a turning point. When the age of the samurai ended,
-            they didn't abandon their craft—they reinvented it, becoming the world's most renowned kitchen knife makers.
+            {t('story.paragraph')}
           </p>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -30,9 +35,9 @@ const Story = () => {
                   <Sword className="w-6 h-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-foreground">Mastery</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-foreground">{t('story.mastery')}</h3>
                   <p className="text-muted-foreground">
-                    Decades of perfecting a single craft, understanding every nuance and detail of our work.
+                    {t('story.masteryDesc')}
                   </p>
                 </div>
               </div>
@@ -42,9 +47,9 @@ const Story = () => {
                   <Sparkles className="w-6 h-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-foreground">Reinvention</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-foreground">{t('story.reinvention')}</h3>
                   <p className="text-muted-foreground">
-                    Adapting timeless expertise to modern challenges, transforming traditional excellence into innovation.
+                    {t('story.reinventionDesc')}
                   </p>
                 </div>
               </div>
@@ -54,9 +59,9 @@ const Story = () => {
                   <TrendingUp className="w-6 h-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-foreground">Excellence</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-foreground">{t('story.excellence')}</h3>
                   <p className="text-muted-foreground">
-                    Every solution precision-crafted, every integration sharp and purposeful, every result exceptional.
+                    {t('story.excellenceDesc')}
                   </p>
                 </div>
               </div>
@@ -65,8 +70,7 @@ const Story = () => {
 
           <div className="bg-accent/5 border border-accent/20 rounded-lg p-8 text-center">
             <p className="text-lg text-foreground italic">
-              "We bring that same spirit to your business—combining deep technical mastery with the courage to reinvent,
-              creating AI-powered solutions that cut through complexity and deliver transformative results."
+              {t('story.quote')}
             </p>
           </div>
         </div>

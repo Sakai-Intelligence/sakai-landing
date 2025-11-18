@@ -1,0 +1,77 @@
+{
+  "notFound.404": "404",
+  "notFound.oops": "Vaya, página no encontrada",
+  "notFound.returnHome": "Volver al inicio",
+
+  "story.title": "El espíritu de",
+  "story.sakai": "Sakai",
+  "story.paragraph": "En Sakai, Japón, los maestros herreros se reinventaron cuando terminó la era de los samuráis. Transformaron un oficio de siglos en una nueva forma de excelencia y se convirtieron en los mejores fabricantes de cuchillos de precisión del mundo. Ese mismo espíritu de maestría y reinvención inspira nuestro trabajo.",
+  "story.mastery": "Maestría",
+  "story.masteryDesc": "Experiencia sólida adquirida durante años de trabajo en ingeniería, arquitectura y diseño de sistemas.",
+  "story.reinvention": "Reinvención",
+  "story.reinventionDesc": "La capacidad de repensar procesos, modernizar sistemas e integrar IA para desbloquear nuevas posibilidades.",
+  "story.excellence": "Excelencia",
+  "story.excellenceDesc": "Ofrecemos soluciones fiables, escalables y elegantes que generan un impacto real.",
+  "story.quote": "Llevamos el espíritu de Sakai a cada proyecto, combinando precisión técnica con la visión necesaria para reinventar sistemas complejos y crear soluciones con IA que realmente importan.",
+
+  "header.title": "Sakai Intelligence",
+  "header.subtitle": "Tecnología de precisión, impacto real",
+  "header.ourStory": "Nuestra historia",
+  "header.services": "Servicios",
+  "header.contact": "Contacto",
+
+  "contact.title": "Construyamos algo excepcional",
+  "contact.subtitle": "Desde integraciones de IA hasta ingeniería full-stack, diseñamos soluciones que ayudan a las empresas a avanzar más rápido, escalar con inteligencia y operar con claridad. Cuéntanos qué necesitas y te ayudaremos a definir la estrategia adecuada.",
+  "contact.getInTouch": "Contactar",
+  "contact.email": "Correo electrónico",
+  "contact.emailAddress": "contact@sakaiintelligence.com",
+  "contact.nameRequired": "El nombre es obligatorio",
+  "contact.nameMax": "El nombre debe tener menos de 100 caracteres",
+  "contact.invalidEmail": "Correo electrónico no válido",
+  "contact.emailMax": "El correo debe tener menos de 255 caracteres",
+  "contact.companyMax": "El nombre de la empresa debe tener menos de 100 caracteres",
+  "contact.messageRequired": "El mensaje es obligatorio",
+  "contact.messageMax": "El mensaje debe tener menos de 1000 caracteres",
+  "contact.sentTitle": "Mensaje enviado",
+  "contact.sentDesc": "Gracias. Te responderemos en breve para explorar cómo podemos ayudarte.",
+
+  "footer.title": "Sakai Intelligence",
+  "footer.desc": "Integración de IA y desarrollo de software con claridad, precisión e impacto.",
+  "footer.services": "Servicios",
+  "footer.aiIntegration": "Integración de IA",
+  "footer.softwareDev": "Desarrollo de software",
+  "footer.processAuto": "Automatización de procesos",
+  "footer.techConsult": "Consultoría técnica",
+  "footer.contact": "Contacto",
+  "footer.email": "contact@sakaiintelligence.com",
+  "footer.phone": "+34 600 000 000",
+  "footer.remote": "Trabajo remoto y global",
+  "footer.rights": "Todos los derechos reservados.",
+
+  "services.title": "Nuestros servicios",
+  "services.subtitle": "Ayudamos a las empresas a modernizarse, optimizar y escalar gracias a la ingeniería experta y la automatización inteligente.",
+
+  "services.aiIntegration": "Integración de IA",
+  "services.aiIntegrationDesc": "Aporta valor real a tus productos y procesos integrando IA fiable y preparada para producción, desde LLM hasta modelos de ML personalizados.",
+
+  "services.softwareDev": "Desarrollo de software a medida",
+  "services.softwareDevDesc": "Diseñamos y construimos soluciones de software robustas y escalables adaptadas a tu lógica de negocio, necesidades operativas y visión a largo plazo.",
+
+  "services.processAuto": "Automatización de procesos",
+  "services.processAutoDesc": "Sustituye tareas manuales repetitivas por flujos automatizados que reducen errores, aceleran la entrega y disminuyen costes.",
+
+  "services.apiDev": "Diseño y desarrollo de APIs",
+  "services.apiDevDesc": "APIs bien diseñadas que conectan tus sistemas, simplifican integraciones y facilitan el crecimiento futuro sin fricciones arquitectónicas.",
+
+  "services.dataEng": "Ingeniería de datos",
+  "services.dataEngDesc": "Construimos pipelines e infraestructuras de datos fiables que transforman datos en información útil y decisiones acertadas.",
+
+  "services.techConsult": "Consultoría técnica",
+  "services.techConsultDesc": "Desde orientación arquitectónica hasta estrategias de modernización, ayudamos a los equipos técnicos a tomar las decisiones adecuadas en el momento adecuado.",
+
+  "hero.title1": "Ingeniería de precisión,",
+  "hero.title2": "inteligencia que escala",
+  "hero.subtitle": "Ayudamos a las empresas a integrar IA, modernizar sus sistemas y construir software fiable pensado para el crecimiento a largo plazo.",
+  "hero.ctaPrimary": "Inicia la transformación",
+  "hero.ctaSecondary": "Explora los servicios"
+}

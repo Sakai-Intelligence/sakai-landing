@@ -1,0 +1,77 @@
+{
+  "notFound.404": "404",
+  "notFound.oops": "Oops! Page not found",
+  "notFound.returnHome": "Return to Home",
+
+  "story.title": "The spirit of",
+  "story.sakai": "Sakai",
+  "story.paragraph": "In Sakai, Japan, master swordsmiths reinvented themselves when the era of the samurai ended. They transformed their centuries-old craft into a new form of excellence, becoming the world's leading makers of precision kitchen knives. That same spirit of mastery and reinvention inspires our work.",
+  "story.mastery": "Mastery",
+  "story.masteryDesc": "Deep expertise built through years of hands-on experience in engineering, architecture, and systems design.",
+  "story.reinvention": "Reinvention",
+  "story.reinventionDesc": "The ability to rethink processes, modernize systems, and integrate AI in ways that unlock new possibilities.",
+  "story.excellence": "Excellence",
+  "story.excellenceDesc": "Delivering reliable, scalable, and elegant solutions that bring real business impact.",
+  "story.quote": "We carry the spirit of Sakai into every project, combining technical precision with the vision to reinvent complex systems and build AI-powered solutions that truly matter.",
+
+  "header.title": "Sakai Intelligence",
+  "header.subtitle": "Precision technology, real impact",
+  "header.ourStory": "Our story",
+  "header.services": "Services",
+  "header.contact": "Contact",
+
+  "contact.title": "Let's build something exceptional",
+  "contact.subtitle": "From AI integrations to full-stack engineering, we design solutions that help companies move faster, scale smarter, and operate with clarity. Tell us what you need and we will help you shape the right strategy.",
+  "contact.getInTouch": "Get in touch",
+  "contact.email": "Email",
+  "contact.emailAddress": "contact@sakaiintelligence.com",
+  "contact.nameRequired": "Name is required",
+  "contact.nameMax": "Name must be less than 100 characters",
+  "contact.invalidEmail": "Invalid email address",
+  "contact.emailMax": "Email must be less than 255 characters",
+  "contact.companyMax": "Company name must be less than 100 characters",
+  "contact.messageRequired": "Message is required",
+  "contact.messageMax": "Message must be less than 1000 characters",
+  "contact.sentTitle": "Message sent",
+  "contact.sentDesc": "Thank you. We will reply shortly to explore how we can help.",
+
+  "footer.title": "Sakai Intelligence",
+  "footer.desc": "AI integration and software engineering crafted with clarity, precision, and impact.",
+  "footer.services": "Services",
+  "footer.aiIntegration": "AI integration",
+  "footer.softwareDev": "Software development",
+  "footer.processAuto": "Process automation",
+  "footer.techConsult": "Technical consulting",
+  "footer.contact": "Contact",
+  "footer.email": "contact@sakaiintelligence.com",
+  "footer.phone": "+1 (555) 123-4567",
+  "footer.remote": "Remote and global",
+  "footer.rights": "All rights reserved.",
+
+  "services.title": "Our services",
+  "services.subtitle": "We help companies modernize, optimize, and scale through expert engineering and intelligent automation.",
+
+  "services.aiIntegration": "AI integration",
+  "services.aiIntegrationDesc": "Bring real value to your products and workflows by integrating reliable, production-ready AI, from LLMs to custom ML models.",
+
+  "services.softwareDev": "Custom software development",
+  "services.softwareDevDesc": "We design and build robust, scalable software solutions tailored to your business logic, operational needs, and long-term vision.",
+
+  "services.processAuto": "Process automation",
+  "services.processAutoDesc": "Replace repetitive manual tasks with automated workflows that reduce errors, accelerate delivery, and cut operational costs.",
+
+  "services.apiDev": "API development",
+  "services.apiDevDesc": "Well-designed APIs that connect your systems, simplify integrations, and support future growth without architectural friction.",
+
+  "services.dataEng": "Data engineering",
+  "services.dataEngDesc": "We build reliable data pipelines and infrastructure that turn raw data into insights and insights into decisions.",
+
+  "services.techConsult": "Technical consulting",
+  "services.techConsultDesc": "From architectural guidance to modernization strategy, we help engineering teams make the right technical decisions at the right time.",
+
+  "hero.title1": "Precision engineering,",
+  "hero.title2": "intelligence that scales",
+  "hero.subtitle": "We help businesses integrate AI, modernize their systems, and build reliable software designed for long-term growth.",
+  "hero.ctaPrimary": "Start your transformation",
+  "hero.ctaSecondary": "Explore our services"
+}
