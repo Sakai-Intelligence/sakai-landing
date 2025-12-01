@@ -51,6 +51,24 @@
   "services.title": "Nuestros servicios",
   "services.subtitle": "Ayudamos a las empresas a modernizarse, optimizar y escalar gracias a la ingeniería experta y la automatización inteligente.",
 
+  "services.readiness.title": "Evaluación de preparación y oportunidades de IA",
+  "services.readiness.desc": "Un engagement de descubrimiento rápido (1–3 semanas) que analiza sistemas, datos, seguridad y flujos de trabajo para identificar casos de uso de IA con alto ROI.",
+
+  "services.integrations.title": "Integraciones de IA para empresas",
+  "services.integrations.desc": "Incorpora capacidades de IA en sistemas existentes (CRM, ERP, intranet, portales de clientes) sin replatformar.",
+
+  "services.rag.title": "RAG y sistemas de automatización del conocimiento",
+  "services.rag.desc": "Despliega generación aumentada por recuperación (RAG) sobre documentos internos, políticas, contratos y bases de conocimiento de soporte.",
+
+  "services.agents.title": "Automatización de flujos de trabajo con IA y agentes",
+  "services.agents.desc": "Diseña e implementa agentes de IA personalizados que automatizan tareas a través de herramientas (correo, Jira, Salesforce, SAP, APIs).",
+
+  "services.document.title": "Inteligencia documental y extracción de datos",
+  "services.document.desc": "Soluciones con IA para leer, clasificar y extraer datos estructurados de PDFs, facturas, contratos, formularios y registros.",
+
+  "services.security.title": "Seguridad, gobernanza y producción de IA",
+  "services.security.desc": "Construye sistemas de IA seguros y conformes, listos para producción, con guardrails, auditabilidad, monitorización y buenas prácticas en la nube.",
+
   "services.aiIntegration": "Integración de IA",
   "services.aiIntegrationDesc": "Aporta valor real a tus productos y procesos integrando IA fiable y preparada para producción, desde LLM hasta modelos de ML personalizados.",
 

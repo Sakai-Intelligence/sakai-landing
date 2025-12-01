@@ -51,6 +51,24 @@
   "services.title": "Els nostres serveis",
   "services.subtitle": "Ajudem les empreses a modernitzar-se, optimitzar i créixer gràcies a l'enginyeria experta i l'automatització intel·ligent.",
 
+  "services.readiness.title": "Avaluació de preparació i oportunitats d'IA",
+  "services.readiness.desc": "Un engagement de descoberta ràpid (1–3 setmanes) que analitza sistemes, dades, seguretat i fluxos de treball per identificar casos d'ús d'IA amb alt ROI.",
+
+  "services.integrations.title": "Integracions d'IA per a empreses",
+  "services.integrations.desc": "Incorpora capacitats d'IA en sistemes existents (CRM, ERP, intranet, portals de clients) sense replatformar.",
+
+  "services.rag.title": "RAG i sistemes d'automatització del coneixement",
+  "services.rag.desc": "Desplega generació augmentada per recuperació (RAG) sobre documents interns, polítiques, contractes i bases de coneixement d'atenció.",
+
+  "services.agents.title": "Automatització de fluxos de treball amb IA i agents",
+  "services.agents.desc": "Dissenya i implementa agents d'IA personalitzats que automatitzen tasques a través d'eines (correu, Jira, Salesforce, SAP, APIs).",
+
+  "services.document.title": "Intel·ligència documental i extracció de dades",
+  "services.document.desc": "Solucions d'IA per llegir, classificar i extreure dades estructurades de PDFs, factures, contractes, formularis i registres.",
+
+  "services.security.title": "Seguretat, governança i posada en producció d'IA",
+  "services.security.desc": "Construeix sistemes d'IA segurs i conformes, llestos per a producció, amb guardrails, auditable, monitorització i bones pràctiques al núvol.",
+
   "services.aiIntegration": "Integració d'IA",
   "services.aiIntegrationDesc": "Aporta valor real als teus productes i processos integrant IA fiable i preparada per a producció, des de LLM fins a models de ML personalitzats.",
 
