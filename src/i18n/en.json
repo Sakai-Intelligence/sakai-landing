@@ -51,6 +51,24 @@
   "services.title": "Our services",
   "services.subtitle": "We help companies modernize, optimize, and scale through expert engineering and intelligent automation.",
 
+  "services.readiness.title": "AI Readiness & Opportunity Assessment",
+  "services.readiness.desc": "A fast discovery engagement (1–3 weeks) analysing systems, data, security and workflows to identify high-ROI AI use cases.",
+
+  "services.integrations.title": "Enterprise AI Integrations",
+  "services.integrations.desc": "Embed AI capabilities into existing systems (CRM, ERP, intranet, customer portals) without replatforming.",
+
+  "services.rag.title": "RAG & Knowledge Automation Systems",
+  "services.rag.desc": "Deploy retrieval-augmented generation (RAG) over internal documents, policies, contracts, and support knowledge bases.",
+
+  "services.agents.title": "AI Workflow Automation & Agents",
+  "services.agents.desc": "Design and implement custom AI agents that automate tasks across tools (email, Jira, Salesforce, SAP, APIs).",
+
+  "services.document.title": "Document Intelligence & Data Extraction",
+  "services.document.desc": "AI solutions for reading, classifying, and extracting structured data from PDFs, invoices, contracts, forms, and logs.",
+
+  "services.security.title": "AI Security, Governance & Productionisation",
+  "services.security.desc": "Build safe, compliant, production-ready AI systems with guardrails, auditability, monitoring, and cloud best practices.",
+
   "services.aiIntegration": "AI integration",
   "services.aiIntegrationDesc": "Bring real value to your products and workflows by integrating reliable, production-ready AI, from LLMs to custom ML models.",
 
