@@ -30,7 +30,7 @@ const Footer = ({ locale }: FooterProps) => {
               <h4 className="font-semibold mb-4">{t('footer.contact')}</h4>
               <ul className="space-y-2 text-primary-foreground/80">
                 <li>{t('footer.email')}</li>
-                <li>{t('footer.phone')}</li>
+                {/* <li>{t('footer.phone')}</li> */}
                 <li>{t('footer.remote')}</li>
               </ul>
             </div>

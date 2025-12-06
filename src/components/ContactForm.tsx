@@ -100,7 +100,7 @@ const ContactForm = ({ locale }: ContactFormProps) => {
                       <p className="text-muted-foreground">{t('contact.emailAddress')}</p>
                     </div>
                   </div>
-                  <div className="flex items-start gap-4">
+                  {/* <div className="flex items-start gap-4">
                     <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
                       <Phone className="w-5 h-5 text-accent" />
                     </div>
@@ -108,7 +108,7 @@ const ContactForm = ({ locale }: ContactFormProps) => {
                       <p className="font-medium text-foreground">{t('footer.phone')}</p>
                       <p className="text-muted-foreground">{t('footer.phone')}</p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
                       <MapPin className="w-5 h-5 text-accent" />
