@@ -20,10 +20,12 @@ const Footer = ({ locale }: FooterProps) => {
             <div>
               <h4 className="font-semibold mb-4">{t('footer.services')}</h4>
               <ul className="space-y-2 text-primary-foreground/80">
-                <li>{t('footer.aiIntegration')}</li>
-                <li>{t('footer.softwareDev')}</li>
-                <li>{t('footer.processAuto')}</li>
-                <li>{t('footer.techConsult')}</li>
+                <li>{t('services.readiness.title')}</li>
+                <li>{t('services.integrations.title')}</li>
+                <li>{t('services.rag.title')}</li>
+                <li>{t('services.agents.title')}</li>
+                <li>{t('services.document.title')}</li>
+                <li>{t('services.security.title')}</li>
               </ul>
             </div>
             <div>
