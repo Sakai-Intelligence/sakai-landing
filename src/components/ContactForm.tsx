@@ -44,7 +44,7 @@ const ContactForm = ({ locale }: ContactFormProps) => {
     try {
       const validatedData = contactSchema.parse(formData);
       await new Promise(resolve => setTimeout(resolve, 1000));
-      const response = await fetch('https://formsubmit.co/homepage-form@sakai-intelligence.com', {
+      const response = await fetch('https://formsubmit.co/web-form@sakai-intelligence.com', {
         method: 'POST',
         body: JSON.stringify(validatedData),
         headers: {
@@ -151,6 +151,8 @@ const ContactForm = ({ locale }: ContactFormProps) => {
 
             {/* Contact Form */}
             <form onSubmit={handleSubmit} className="space-y-6">
+              <input type="hidden" name="_subject" value="New Contact Request"/>
+              <input type="hidden" name="_template" value="table"/>
               <div>
                 <Label htmlFor="name">{t('contact.nameRequired').replace(' is required', ' *')}</Label>
                 <Input
