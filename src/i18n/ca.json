@@ -33,7 +33,11 @@
   "contact.messageRequired": "El missatge és obligatori",
   "contact.messageMax": "El missatge ha de tenir menys de 1000 caràcters",
   "contact.sentTitle": "Missatge enviat",
-  "contact.sentDesc": "Gràcies! Et respondrem aviat per explorar com podem ajudar-te.",
+  "contact.sentDesc": "Gràcies. Et respondrem aviat per explorar com podem ajudar-te.",
+  "contact.sending": "Enviant...",
+  "contact.sendMessage": "Enviar missatge",
+  "contact.successMessage": "¡Missatge enviat amb èxit!",
+  "contact.errorMessage": "Error en enviar el missatge. Si us plau, torna-ho a intentar.",
 
   "footer.title": "Sakai Intelligence",
   "footer.desc": "Integració d'IA i desenvolupament de programari amb claredat, precisió i impacte.",

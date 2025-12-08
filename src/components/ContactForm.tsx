@@ -1,5 +1,4 @@
 import { useState } from "react";
-// ...existing code...
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -35,20 +34,38 @@ const ContactForm = ({ locale }: ContactFormProps) => {
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setErrors({});
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
     try {
       const validatedData = contactSchema.parse(formData);
-      setIsSubmitting(true);
-      // Simulate form submission
       await new Promise(resolve => setTimeout(resolve, 1000));
-      toast({
-        title: t('contact.sentTitle'),
-        description: t('contact.sentDesc'),
+      const response = await fetch('https://formsubmit.co/homepage-form@sakai-intelligence.com', {
+        method: 'POST',
+        body: JSON.stringify(validatedData),
+        headers: {
+          'Content-Type': 'application/json',
+        },
       });
-      setFormData({ name: "", email: "", company: "", message: "" });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        toast({
+          title: t('contact.sentTitle'),
+          description: t('contact.sentDesc'),
+        });
+        setFormData({ name: "", email: "", company: "", message: "" });
+      } else {
+        setSubmitStatus('error');
+        toast({
+          title: t('contact.errorTitle'),
+          description: t('contact.errorDesc'),
+        });
+      }
     } catch (error) {
       if (error instanceof z.ZodError) {
         const fieldErrors: Record<string, string> = {};
@@ -58,6 +75,8 @@ const ContactForm = ({ locale }: ContactFormProps) => {
           }
         });
         setErrors(fieldErrors);
+      } else {
+        setSubmitStatus('error');
       }
     } finally {
       setIsSubmitting(false);
@@ -184,6 +203,9 @@ const ContactForm = ({ locale }: ContactFormProps) => {
                 />
                 {errors.message && <p className="text-destructive text-sm mt-1">{errors.message}</p>}
               </div>
+
+              {submitStatus === 'success' && <p className="text-green-600">{t('contact.successMessage')}</p>}
+              {submitStatus === 'error' && <p className="text-red-600">{t('contact.errorMessage')}</p>}
 
               <Button
                 type="submit"

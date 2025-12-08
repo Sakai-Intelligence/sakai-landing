@@ -34,6 +34,10 @@
   "contact.messageMax": "Message must be less than 1000 characters",
   "contact.sentTitle": "Message sent",
   "contact.sentDesc": "Thank you. We will reply shortly to explore how we can help.",
+  "contact.sending": "Sending...",
+  "contact.sendMessage": "Send Message",
+  "contact.successMessage": "Message sent successfully!",
+  "contact.errorMessage": "Failed to send message. Please try again.",
 
   "footer.title": "Sakai Intelligence",
   "footer.desc": "AI integration and software engineering crafted with clarity, precision, and impact.",
