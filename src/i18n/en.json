@@ -95,5 +95,61 @@
   "hero.title2": "intelligence that scales",
   "hero.subtitle": "We help businesses integrate AI, modernize their systems, and build reliable software designed for long-term growth.",
   "hero.ctaPrimary": "Start your transformation",
-  "hero.ctaSecondary": "Explore our services"
+  "hero.ctaSecondary": "Explore our services",
+
+  "header.studio": "Studio",
+
+  "studio.badge": "Startup Incubation",
+  "studio.hero.title1": "Build your startup with",
+  "studio.hero.title2": "Sakai Studio",
+  "studio.hero.subtitle": "We help founders turn ideas into market-ready products through technical expertise, strategic guidance, and hands-on execution. Build your MVP, launch confidently, and scale sustainably.",
+  "studio.hero.cta": "Apply to Studio",
+
+  "studio.offer.title": "What we offer",
+  "studio.offer.subtitle": "End-to-end support from concept to market launch and beyond.",
+
+  "studio.benefits.mvp.title": "MVP Development",
+  "studio.benefits.mvp.desc": "We design and build your minimum viable product with speed and precision, using proven architecture and modern tech stacks.",
+
+  "studio.benefits.launch.title": "Go-to-Market Strategy",
+  "studio.benefits.launch.desc": "Launch with confidence. We help you validate assumptions, define positioning, and build the right product for your market.",
+
+  "studio.benefits.coaching.title": "Founder Coaching",
+  "studio.benefits.coaching.desc": "Get strategic guidance on product, technology, and execution from experienced technical and business leaders.",
+
+  "studio.benefits.ownership.title": "You Own Everything",
+  "studio.benefits.ownership.desc": "Full IP ownership stays with you. We are here to help you succeed, not to take equity or control.",
+
+  "studio.process.title": "How it works",
+  "studio.process.subtitle": "A structured, proven process designed to get you from idea to launch fast.",
+
+  "studio.process.discovery.title": "Discovery & Strategy",
+  "studio.process.discovery.desc": "We start by understanding your vision, market, and goals. Together, we define the MVP scope, technical architecture, and go-to-market approach.",
+
+  "studio.process.build.title": "Design & Build",
+  "studio.process.build.desc": "Our team designs and develops your product using agile methodologies. You stay involved through regular demos and feedback cycles.",
+
+  "studio.process.launch.title": "Launch & Validation",
+  "studio.process.launch.desc": "We help you launch to real users, measure what matters, and iterate based on feedback and data.",
+
+  "studio.process.scale.title": "Scale & Optimize",
+  "studio.process.scale.desc": "Post-launch, we continue to support you with optimization, new features, and technical guidance as you grow.",
+
+  "studio.why.title": "Why Sakai Studio",
+
+  "studio.why.expertise.title": "Deep Technical Expertise",
+  "studio.why.expertise.desc": "Decades of combined experience building scalable systems, AI products, and enterprise software.",
+
+  "studio.why.speed.title": "Speed to Market",
+  "studio.why.speed.desc": "We move fast without compromising quality. Get your MVP live in weeks, not months.",
+
+  "studio.why.partnership.title": "True Partnership",
+  "studio.why.partnership.desc": "We are invested in your success. You get dedicated support, honest feedback, and strategic guidance.",
+
+  "studio.why.rights.title": "Your IP, Your Business",
+  "studio.why.rights.desc": "You retain 100% ownership of your intellectual property and business. No equity, no hidden terms.",
+
+  "studio.cta.title": "Ready to build your startup?",
+  "studio.cta.subtitle": "Tell us about your idea and let's explore how Sakai Studio can help you launch successfully.",
+  "studio.cta.button": "Get in Touch"
 }
