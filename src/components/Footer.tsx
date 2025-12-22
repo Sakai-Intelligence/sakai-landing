@@ -26,6 +26,11 @@ const Footer = ({ locale }: FooterProps) => {
                 <li>{t('services.agents.title')}</li>
                 <li>{t('services.document.title')}</li>
                 <li>{t('services.security.title')}</li>
+                <li>
+                  <a href="/studio" className="hover:text-accent transition-colors">
+                    {t('header.studio')}
+                  </a>
+                </li>
               </ul>
             </div>
             <div>
