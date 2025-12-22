@@ -95,5 +95,61 @@
   "hero.title2": "inteligencia que escala",
   "hero.subtitle": "Ayudamos a las empresas a integrar IA, modernizar sus sistemas y construir software fiable pensado para el crecimiento a largo plazo.",
   "hero.ctaPrimary": "Inicia la transformación",
-  "hero.ctaSecondary": "Explora los servicios"
+  "hero.ctaSecondary": "Explora los servicios",
+
+  "header.studio": "Studio",
+
+  "studio.badge": "Incubación de startups",
+  "studio.hero.title1": "Construye tu startup con",
+  "studio.hero.title2": "Sakai Studio",
+  "studio.hero.subtitle": "Ayudamos a los fundadores a convertir ideas en productos listos para el mercado mediante experiencia técnica, orientación estratégica y ejecución práctica. Construye tu MVP, lanza con confianza y escala de manera sostenible.",
+  "studio.hero.cta": "Únete a Studio",
+
+  "studio.offer.title": "Qué ofrecemos",
+  "studio.offer.subtitle": "Soporte integral desde el concepto hasta el lanzamiento al mercado y más allá.",
+
+  "studio.benefits.mvp.title": "Desarrollo de MVP",
+  "studio.benefits.mvp.desc": "Diseñamos y construimos tu producto mínimo viable con rapidez y precisión, utilizando arquitectura probada y tecnologías modernas.",
+
+  "studio.benefits.launch.title": "Estrategia de lanzamiento",
+  "studio.benefits.launch.desc": "Lanza con confianza. Te ayudamos a validar hipótesis, definir posicionamiento y construir el producto adecuado para tu mercado.",
+
+  "studio.benefits.coaching.title": "Mentoría para fundadores",
+  "studio.benefits.coaching.desc": "Obtén orientación estratégica sobre producto, tecnología y ejecución por parte de líderes técnicos y empresariales experimentados.",
+
+  "studio.benefits.ownership.title": "Todo es tuyo",
+  "studio.benefits.ownership.desc": "La propiedad intelectual es 100% tuya. Estamos aquí para ayudarte a tener éxito, no para tomar participación ni control.",
+
+  "studio.process.title": "Cómo funciona",
+  "studio.process.subtitle": "Un proceso estructurado y probado diseñado para llevarte de la idea al lanzamiento rápidamente.",
+
+  "studio.process.discovery.title": "Descubrimiento y estrategia",
+  "studio.process.discovery.desc": "Comenzamos entendiendo tu visión, mercado y objetivos. Juntos, definimos el alcance del MVP, la arquitectura técnica y la estrategia de lanzamiento.",
+
+  "studio.process.build.title": "Diseño y construcción",
+  "studio.process.build.desc": "Nuestro equipo diseña y desarrolla tu producto utilizando metodologías ágiles. Participas activamente mediante demostraciones y ciclos de retroalimentación regulares.",
+
+  "studio.process.launch.title": "Lanzamiento y validación",
+  "studio.process.launch.desc": "Te ayudamos a lanzar con usuarios reales, medir lo que importa e iterar según la retroalimentación y los datos.",
+
+  "studio.process.scale.title": "Escalar y optimizar",
+  "studio.process.scale.desc": "Después del lanzamiento, continuamos apoyándote con optimización, nuevas funciones y orientación técnica mientras crezcas.",
+
+  "studio.why.title": "Por qué Sakai Studio",
+
+  "studio.why.expertise.title": "Experiencia técnica profunda",
+  "studio.why.expertise.desc": "Décadas de experiencia combinada construyendo sistemas escalables, productos de IA y software empresarial.",
+
+  "studio.why.speed.title": "Rapidez al mercado",
+  "studio.why.speed.desc": "Avanzamos rápido sin comprometer la calidad. Consigue que tu MVP esté activo en semanas, no meses.",
+
+  "studio.why.partnership.title": "Colaboración auténtica",
+  "studio.why.partnership.desc": "Estamos invertidos en tu éxito. Obtienes soporte dedicado, feedback honesto y orientación estratégica.",
+
+  "studio.why.rights.title": "Tu IP, tu negocio",
+  "studio.why.rights.desc": "Retienes el 100% de la propiedad de tu propiedad intelectual y negocio. Sin participación, sin términos ocultos.",
+
+  "studio.cta.title": "¿Listo para construir tu startup?",
+  "studio.cta.subtitle": "Cuéntanos tu idea y exploremos cómo Sakai Studio puede ayudarte a lanzar con éxito.",
+  "studio.cta.button": "Contáctanos"
 }

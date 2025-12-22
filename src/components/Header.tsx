@@ -1,6 +1,7 @@
 
 import sakaiLogo from "@/assets/sakai-logo.png";
 import { useTranslation, Locale } from "@/i18n/useTranslation";
+import { Link, useLocation } from "react-router-dom";
 
 const LANGUAGES = [
   { code: 'ca', label: 'Català' },
@@ -15,6 +16,9 @@ interface HeaderProps {
 
 const Header = ({ locale, setLocale }: HeaderProps) => {
   const { t } = useTranslation(locale);
+  const location = useLocation();
+  const isHome = location.pathname === '/';
+
   const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setLocale(e.target.value as Locale);
   };
@@ -22,7 +26,7 @@ const Header = ({ locale, setLocale }: HeaderProps) => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-forge/95 backdrop-blur-sm border-b border-border/50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center gap-3">
+          <Link to="/" className="flex items-center gap-3">
             <div
               alt="Sakai Intelligence Logo" className="h-12 w-12 bg-accent"
               style={{
@@ -34,28 +38,45 @@ const Header = ({ locale, setLocale }: HeaderProps) => {
               <h1 className="text-xl font-bold text-primary-foreground tracking-tight">{t('header.title')}</h1>
               <p className="text-xs text-muted-foreground">{t('header.subtitle')}</p>
             </div>
-          </div>
+          </Link>
 
           <div className="flex items-center gap-6">
             <nav className="hidden md:flex items-center gap-8">
-              <a
-                href="#story"
+              {isHome ? (
+                <>
+                  <a
+                    href="#story"
+                    className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    {t('header.ourStory')}
+                  </a>
+                  <a
+                    href="#services"
+                    className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    {t('header.services')}
+                  </a>
+                  <a
+                    href="#contact"
+                    className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    {t('header.contact')}
+                  </a>
+                </>
+              ) : (
+                <Link
+                  to="/"
+                  className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors"
+                >
+                  {t('header.services')}
+                </Link>
+              )}
+              <Link
+                to="/studio"
                 className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors"
               >
-                {t('header.ourStory')}
-              </a>
-              <a
-                href="#services"
-                className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors"
-              >
-                {t('header.services')}
-              </a>
-              <a
-                href="#contact"
-                className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors"
-              >
-                {t('header.contact')}
-              </a>
+                {t('header.studio')}
+              </Link>
             </nav>
             {/* Language Selector */}
             <div className="relative">

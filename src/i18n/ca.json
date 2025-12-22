@@ -95,5 +95,61 @@
   "hero.title2": "intel·ligència que escala",
   "hero.subtitle": "Ajudem empreses a integrar IA, modernitzar els seus sistemes i construir programari fiable pensat per créixer a llarg termini.",
   "hero.ctaPrimary": "Inicia la transformació",
-  "hero.ctaSecondary": "Explora els serveis"
+  "hero.ctaSecondary": "Explora els serveis",
+
+  "header.studio": "Studio",
+
+  "studio.badge": "Incubació de startups",
+  "studio.hero.title1": "Construeix la teva startup amb",
+  "studio.hero.title2": "Sakai Studio",
+  "studio.hero.subtitle": "Ajudem els fundadors a convertir idees en productes llests per al mercat mitjançant experiència tècnica, orientació estratègica i execució pràctica. Construeix el teu MVP, llança amb confiança i escala de manera sostenible.",
+  "studio.hero.cta": "Uneix-te a Studio",
+
+  "studio.offer.title": "Què oferim",
+  "studio.offer.subtitle": "Suport integral des del concepte fins al llançament al mercat i més enllà.",
+
+  "studio.benefits.mvp.title": "Desenvolupament de MVP",
+  "studio.benefits.mvp.desc": "Dissenyem i construïm el teu producte mínim viable amb rapidesa i precisió, utilitzant arquitectura provada i tecnologies modernes.",
+
+  "studio.benefits.launch.title": "Estratègia de llançament",
+  "studio.benefits.launch.desc": "Llança amb confiança. T'ajudem a validar hipòtesis, definir posicionament i construir el producte adequat per al teu mercat.",
+
+  "studio.benefits.coaching.title": "Mentoria per a fundadors",
+  "studio.benefits.coaching.desc": "Aconsegueix orientació estratègica sobre producte, tecnologia i execució per part de líders tècnics i empresarials amb experiència.",
+
+  "studio.benefits.ownership.title": "Tot és teu",
+  "studio.benefits.ownership.desc": "La propietat intel·lectual és 100% teva. Som aquí per ajudar-te a tenir èxit, no per prendre participació ni control.",
+
+  "studio.process.title": "Com funciona",
+  "studio.process.subtitle": "Un procés estructurat i provat dissenyat per portar-te de la idea al llançament ràpidament.",
+
+  "studio.process.discovery.title": "Descoberta i estratègia",
+  "studio.process.discovery.desc": "Comencem entenent la teva visió, mercat i objectius. Junts, definim l'abast del MVP, l'arquitectura tècnica i l'estratègia de llançament.",
+
+  "studio.process.build.title": "Disseny i construcció",
+  "studio.process.build.desc": "El nostre equip dissenya i desenvolupa el teu producte utilitzant metodologies àgils. Participes activament mitjançant demostracions i cicles de retroalimentació regulars.",
+
+  "studio.process.launch.title": "Llançament i validació",
+  "studio.process.launch.desc": "T'ajudem a llançar amb usuaris reals, mesurar el que importa i iterar segons la retroalimentació i les dades.",
+
+  "studio.process.scale.title": "Escalar i optimitzar",
+  "studio.process.scale.desc": "Després del llançament, continuem donant-te suport amb optimització, noves funcions i orientació tècnica mentre creixis.",
+
+  "studio.why.title": "Per què Sakai Studio",
+
+  "studio.why.expertise.title": "Experiència tècnica profunda",
+  "studio.why.expertise.desc": "Dècades d'experiència combinada construint sistemes escalables, productes d'IA i programari empresarial.",
+
+  "studio.why.speed.title": "Rapidesa al mercat",
+  "studio.why.speed.desc": "Avancem ràpidament sense comprometre la qualitat. Aconsegueix que el teu MVP estigui actiu en setmanes, no mesos.",
+
+  "studio.why.partnership.title": "Col·laboració autèntica",
+  "studio.why.partnership.desc": "Estem invertits en el teu èxit. Obtens suport dedicat, feedback honest i orientació estratègica.",
+
+  "studio.why.rights.title": "La teva IP, el teu negoci",
+  "studio.why.rights.desc": "Retens el 100% de la propietat de la teva propietat intel·lectual i negoci. Sense participació, sense termes ocults.",
+
+  "studio.cta.title": "Preparat per construir la teva startup?",
+  "studio.cta.subtitle": "Explica'ns la teva idea i explorem com Sakai Studio pot ajudar-te a llançar amb èxit.",
+  "studio.cta.button": "Contacta'ns"
 }
