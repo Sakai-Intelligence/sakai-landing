@@ -12,6 +12,20 @@ services:
       - NODE_ENV=development
       - CHOKIDAR_USEPOLLING=true
       - CHOKIDAR_INTERVAL=100
+    depends_on:
+      - api
+
+  api:
+    build: ./api
+    ports:
+      - "3001:3001"
+    environment:
+      - ZOHO_SMTP_HOST=${ZOHO_SMTP_HOST}
+      - ZOHO_SMTP_PORT=${ZOHO_SMTP_PORT}
+      - ZOHO_SMTP_USER=${ZOHO_SMTP_USER}
+      - ZOHO_SMTP_PASSWORD=${ZOHO_SMTP_PASSWORD}
+      - CONTACT_EMAIL=${CONTACT_EMAIL}
+      - PERMITTED_HOSTS=${PERMITTED_HOSTS}
 
 volumes:
   vite_node_modules:

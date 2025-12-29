@@ -43,8 +43,8 @@ const ContactForm = ({ locale }: ContactFormProps) => {
     setSubmitStatus('idle');
     try {
       const validatedData = contactSchema.parse(formData);
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      const response = await fetch('https://formsubmit.co/web-form@sakai-intelligence.com', {
+
+      const response = await fetch('/api/email', {
         method: 'POST',
         body: JSON.stringify(validatedData),
         headers: {
@@ -52,7 +52,9 @@ const ContactForm = ({ locale }: ContactFormProps) => {
         },
       });
 
-      if (response.ok) {
+      const data = await response.json();
+
+      if (response.ok && data.success) {
         setSubmitStatus('success');
         toast({
           title: t('contact.sentTitle'),
@@ -63,7 +65,7 @@ const ContactForm = ({ locale }: ContactFormProps) => {
         setSubmitStatus('error');
         toast({
           title: t('contact.errorTitle'),
-          description: t('contact.errorDesc'),
+          description: data.error || t('contact.errorDesc'),
         });
       }
     } catch (error) {
@@ -77,7 +79,12 @@ const ContactForm = ({ locale }: ContactFormProps) => {
         setErrors(fieldErrors);
       } else {
         setSubmitStatus('error');
+        toast({
+          title: t('contact.errorTitle'),
+          description: t('contact.errorDesc'),
+        });
       }
+      console.error(error.message)
     } finally {
       setIsSubmitting(false);
     }

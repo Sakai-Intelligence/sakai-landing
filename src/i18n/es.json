@@ -34,6 +34,8 @@
   "contact.messageMax": "El mensaje debe tener menos de 1000 caracteres",
   "contact.sentTitle": "Mensaje enviado",
   "contact.sentDesc": "Gracias. Te responderemos pronto para explorar cómo podemos ayudarte.",
+  "contact.errorTitle": "¡Vaya!",
+  "contact.errorDesc": "Algo salió mal y tu mensaje no pudo enviarse. Por favor, inténtalo de nuevo en un momento.",
   "contact.sending": "Enviando...",
   "contact.sendMessage": "Enviar mensaje",
   "contact.successMessage": "¡Mensaje enviado exitosamente!",

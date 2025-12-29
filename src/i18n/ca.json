@@ -34,6 +34,8 @@
   "contact.messageMax": "El missatge ha de tenir menys de 1000 caràcters",
   "contact.sentTitle": "Missatge enviat",
   "contact.sentDesc": "Gràcies. Et respondrem aviat per explorar com podem ajudar-te.",
+  "contact.errorTitle": "Vaja!",
+  "contact.errorDesc": "Alguna cosa ha anat malament i el teu missatge no s'ha pogut enviar. Si us plau, torna-ho a intentar d'aquí a un moment.",
   "contact.sending": "Enviant...",
   "contact.sendMessage": "Enviar missatge",
   "contact.successMessage": "¡Missatge enviat amb èxit!",
