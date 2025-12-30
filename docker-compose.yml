@@ -18,14 +18,17 @@ services:
   api:
     build: ./api
     ports:
-      - "3001:3001"
+      - "7071:7071"
+    volumes:
+      - ./api:/app
+      - api_node_modules:/app/node_modules
     environment:
       - ZOHO_SMTP_HOST=${ZOHO_SMTP_HOST}
       - ZOHO_SMTP_PORT=${ZOHO_SMTP_PORT}
       - ZOHO_SMTP_USER=${ZOHO_SMTP_USER}
       - ZOHO_SMTP_PASSWORD=${ZOHO_SMTP_PASSWORD}
       - CONTACT_EMAIL=${CONTACT_EMAIL}
-      - PERMITTED_HOSTS=${PERMITTED_HOSTS}
 
 volumes:
   vite_node_modules:
+  api_node_modules:
